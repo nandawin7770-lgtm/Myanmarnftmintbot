@@ -1,0 +1,18 @@
+{
+  "name": "nft-wl-mint-bot",
+  "version": "1.0.0",
+  "description": "Telegram NFT Whitelist Mint Bot for EVM chains",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "dependencies": {
+    "telegraf": "^4.16.3",
+    "ethers": "^6.13.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
